@@ -1,0 +1,16 @@
+﻿@model List<HR_System_Assignment.ViewModels.EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@section scripts{
+    <script src="~/js/ScriptEmpTable.js"></script>
+    }
+<div>
+   <input class="srch" id="searchbar" type="text" name="search" placeholder="Search here" autocomplete="off">
+</div>
+<h2 style="text-align:center;" class="header">Employee List</h2>
+@{
+    await Html.RenderPartialAsync("_EmployeeTablePartialView", Model);
+}
+<div id="snackbar">Deleted Employee Successfully</div>

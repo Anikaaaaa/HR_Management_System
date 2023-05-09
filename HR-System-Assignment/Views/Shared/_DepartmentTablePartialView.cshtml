@@ -1,0 +1,34 @@
+﻿@model System.Data.DataTable
+
+<table class="table" id="dept_table">
+   <thead>
+      <tr>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Total Employees</th>
+         <th>Actions</th>
+      </tr>
+   </thead>
+   <tbody>
+        @for (int i = 0; i < Model.Rows.Count; i++)
+        {
+          <tr>
+             <td>
+                    @Model.Rows[i]["dept_id"]
+             </td>
+             <td>
+                    @Model.Rows[i]["dept_name"]
+             </td>
+             <td>
+                    @Model.Rows[i]["total"]
+             </td>
+             <td>
+                <div class="buttons">
+                   <button class=" btn-customized "><a class="nav-link text-white" asp-action="AddOrUpdate" asp-route-id="@Model.Rows[i]["dept_id"]">Edit</a></button>
+                   <button class="btn-customized-2 text-dark-blue deletedpt" id="@Model.Rows[i]["dept_id"]">Delete</button>
+                </div>
+             </td>
+          </tr>
+        }
+   </tbody>
+</table>

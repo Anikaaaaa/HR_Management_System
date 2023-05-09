@@ -1,0 +1,16 @@
+﻿@model System.Data.DataTable
+
+@{
+    ViewData["Title"] = "Index";
+}
+@section scripts{
+    <script src="~/js/scriptDeptTable.js"></script>
+    }
+<div>
+   <input class="srch" id="searchbar_dept" type="text" name="search" placeholder="Search here">
+</div>
+<h2 style="text-align:center;" class="header">Department List</h2>
+@{
+    await Html.RenderPartialAsync("_DepartmentTablePartialView", Model);
+}
+<div id="snackbar2">Deleted Department Successfully</div>

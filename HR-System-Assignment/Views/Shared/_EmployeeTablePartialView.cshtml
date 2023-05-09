@@ -1,0 +1,59 @@
+﻿@model List<HR_System_Assignment.ViewModels.EmployeeViewModel>
+
+<table class="table" id="emp_table">
+   <thead>
+      <tr>
+         <th>ID</th>
+         <th>Name</th>
+         <th>
+            Department
+            <select id="dept_select">
+               <option selected>All</option>
+                    @{
+                        var distinct_dept = (List<string>)ViewData["MyData"];
+                        @for (int i = 0; i < distinct_dept.ToList().Count(); i++)
+                        {
+                       <option>@distinct_dept.ToList()[i]</option>
+                        }
+                    }
+            </select>
+         </th>
+         <th>Photo</th>
+         <th>Action</th>
+      </tr>
+   </thead>
+   <tbody>
+        @foreach (var item in Model)
+        {
+          <tr>
+             <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+             </td>
+             <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+             </td>
+             <td>
+                    @Html.DisplayFor(modelItem => item.Deptartment)
+             </td>
+                @if ((@item.PhotoLink) != "")
+                {
+                 <td>
+                    <img src="~/Images/@item.PhotoLink" height="80" width="80">
+                 </td>
+                }
+                else
+                {
+                 <td>
+                    <img src="~/Images/no_image.png" height="80" width="80">
+                 </td>
+                }
+             <td>
+                <div class="buttons">
+                   <button class=" btn-customized "><a class="nav-link text-white" asp-action="AddOrEditEmployee" asp-route-id=@item.Id>Edit</a></button>
+                   <button class="btn-customized-2 "><a class="nav-link text-dark-blue delete" id=@item.Id>Delete</a></button>
+                </div>
+             </td>
+          </tr>
+        }
+   </tbody>
+</table>

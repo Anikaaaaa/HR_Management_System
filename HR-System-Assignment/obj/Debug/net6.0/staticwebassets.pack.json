@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HR-System-Assignment.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HR-System-Assignment.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\171.jpg",
+      "PackagePath": "staticwebassets\\Images\\171.jpg"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\19745.jpg",
+      "PackagePath": "staticwebassets\\Images\\19745.jpg"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\ERD_movie_booking.png",
+      "PackagePath": "staticwebassets\\Images\\ERD_movie_booking.png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\IMG_20230506_151308.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_20230506_151308.jpg"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Ruchita.png",
+      "PackagePath": "staticwebassets\\Images\\Ruchita.png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (1).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (1).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (10).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (10).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (12).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (12).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (13).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (13).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (14).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (14).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (15).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (15).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (16).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (16).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (17).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (17).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (18).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (18).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (19).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (19).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (23).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (23).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (24).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (24).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (27).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (27).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (29).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (29).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (3).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (31).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (31).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (34).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (34).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (4).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (4).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (43).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (43).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (5).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (5).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (55).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (55).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (68).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (68).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (73).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (73).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\Screenshot (9).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (9).png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\check-marks.jpg",
+      "PackagePath": "staticwebassets\\Images\\check-marks.jpg"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\download (1).jfif",
+      "PackagePath": "staticwebassets\\Images\\download (1).jfif"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\download.jfif",
+      "PackagePath": "staticwebassets\\Images\\download.jfif"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\download.png",
+      "PackagePath": "staticwebassets\\Images\\download.png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\mobile-login-concept-illustration_114360-83.webp",
+      "PackagePath": "staticwebassets\\Images\\mobile-login-concept-illustration_114360-83.webp"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\Images\\no_image.png",
+      "PackagePath": "staticwebassets\\Images\\no_image.png"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\js\\AddOrEditEmpScript.js",
+      "PackagePath": "staticwebassets\\js\\AddOrEditEmpScript.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\js\\ScriptEmpTable.js",
+      "PackagePath": "staticwebassets\\js\\ScriptEmpTable.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\js\\scriptDeptTable.js",
+      "PackagePath": "staticwebassets\\js\\scriptDeptTable.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\My Assignments\\HR System Assignment\\HR-System-Assignment\\HR-System-Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HR-System-Assignment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HR-System-Assignment.props",
+      "PackagePath": "build\\HR-System-Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HR-System-Assignment.props",
+      "PackagePath": "buildMultiTargeting\\HR-System-Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HR-System-Assignment.props",
+      "PackagePath": "buildTransitive\\HR-System-Assignment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

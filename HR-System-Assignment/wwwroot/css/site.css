@@ -1,0 +1,278 @@
+html {
+   font-size: 14px;
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navigation_box {
+   height: 10%;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+}
+
+.f {
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+}
+
+.logo_image {
+   margin-top: -7px;  
+   flex: 1;
+}
+
+.required {
+   color: red;
+}
+
+#picked_image{
+   display:none;
+}
+
+#img1 {
+   display: none;
+}
+
+.title {
+   flex: 1;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: xx-large;
+   font-style: italic;
+   font-stretch: extra-expanded;
+   align-content: center;
+   font-weight: 400;
+   margin-top: 7px;
+   margin-inline-start: 250px;
+   margin-inline-end: 270px;
+}
+
+.text-sea {
+   color: darkslateblue;
+}
+
+.logout {
+   flex: 1;
+   align-content: center;
+   margin-top: 17px;
+}
+
+.searchbar_flex {
+   flex: 1;
+   justify-content: space-around;
+}
+
+.m{
+   margin-inline-start:70px;
+   margin-inline-end:70px;
+}
+
+.d{
+   background-color:darkslateblue;
+  border-color:darkseagreen;
+  text-decoration-color:#ffffff;
+}
+
+.btn-customized {
+   color: aliceblue;
+   background-color: darkslateblue;
+   border-color: white;
+}
+.srch {
+   width: 30%;
+   padding: 15px;
+   margin-left: 67%;
+   padding-top: 8px;
+   padding-bottom: 12px;
+   border-radius: 5px;
+   border-color: darkslateblue;
+   margin-top: 7px;
+}
+
+.btn-customized-2 {
+   color: darkslateblue;
+   background-color: aliceblue;
+   border-color: white;
+   margin-left: 5px;
+}
+
+.margin-left-1{
+   margin-left:-10%
+}
+
+.header {
+   margin-bottom: 15px;
+   margin-top: 20px;
+}
+
+.text-dark-blue {
+   color: darkslateblue;
+}
+
+.buttons{
+   display:flex;
+   flex-direction:row;
+}
+
+.w {
+   border-color: darkseagreen;
+   text-decoration-color: #ffffff;
+}
+
+.margin-left-extra{
+   margin-left:150px;
+}
+
+.margin-right-extra {
+   margin-right: 150px;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+   visibility: hidden; /* Hidden by default. Visible on click */
+   min-width: 250px; /* Set a default minimum width */
+   margin-left: -125px; /* Divide value of min-width by 2 */
+   background-color: #333; /* Black background color */
+   color: #fff; /* White text color */
+   text-align: center; /* Centered text */
+   border-radius: 2px; /* Rounded borders */
+   padding: 16px; /* Padding */
+   position: fixed; /* Sit on top of the screen */
+   z-index: 1; /* Add a z-index if needed */
+   left: 50%; /* Center the snackbar */
+   bottom: 30px; /* 30px from the bottom */
+}
+   /* Show the snackbar when clicking on a button (class added with JavaScript) */
+   #snackbar.show {
+      visibility: visible; /* Show the snackbar */
+      /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+   }
+
+#snackbar2 {
+   visibility: hidden; /* Hidden by default. Visible on click */
+   min-width: 250px; /* Set a default minimum width */
+   margin-left: -125px; /* Divide value of min-width by 2 */
+   background-color: #333; /* Black background color */
+   color: #fff; /* White text color */
+   text-align: center; /* Centered text */
+   border-radius: 2px; /* Rounded borders */
+   padding: 16px; /* Padding */
+   position: fixed; /* Sit on top of the screen */
+   z-index: 1; /* Add a z-index if needed */
+   left: 50%; /* Center the snackbar */
+   bottom: 30px; /* 30px from the bottom */
+}
+
+   /* Show the snackbar when clicking on a button (class added with JavaScript) */
+   #snackbar2.show {
+      visibility: visible; /* Show the snackbar */
+      /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+   }
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+   from {
+      bottom: 0;
+      opacity: 0;
+   }
+
+   to {
+      bottom: 30px;
+      opacity: 1;
+   }
+}
+
+@keyframes fadein {
+   from {
+      bottom: 0;
+      opacity: 0;
+   }
+
+   to {
+      bottom: 30px;
+      opacity: 1;
+   }
+}
+
+@-webkit-keyframes fadeout {
+   from {
+      bottom: 30px;
+      opacity: 1;
+   }
+
+   to {
+      bottom: 0;
+      opacity: 0;
+   }
+}
+
+@keyframes fadeout {
+   from {
+      bottom: 30px;
+      opacity: 1;
+   }
+
+   to {
+      bottom: 0;
+      opacity: 0;
+   }
+}
+@media screen and (max-width:600px) {
+   html {
+      font-size: 16px;
+   }
+
+   .h-custom-2 {
+      height: 100%;
+   }
+
+   .navigation_box {
+      height: 10%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+   }
+
+   .logo_image {
+      margin-top: 15px;
+      margin-inline-start:350px;
+      flex: 1;
+   }
+   .logout {
+      flex: 1;
+      align-content: center;
+      margin-inline-start: 370px;
+      margin-top: -10px;
+   }
+   .nav a:hover {
+      background-color: #ff6a00 !important;
+   }
+   .title {
+      flex: 1;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: xx-large;
+      font-style: italic;
+      font-stretch: extra-expanded;
+      align-content: center;
+      font-weight: 400;
+      margin-top: -30px;
+   }
+
+   .margin-left-extra {
+      margin-left: 70px;
+   }
+
+   .margin-right-extra {
+      margin-right: 70px;
+   }
+}

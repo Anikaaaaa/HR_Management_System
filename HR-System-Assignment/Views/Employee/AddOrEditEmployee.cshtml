@@ -1,0 +1,129 @@
+﻿@model HR_System_Assignment.ViewModels.EmployeeViewModel
+@{
+    ViewData["title"] = Model.Id == 0 ? "Add Employee" : "Update Employee";
+}
+
+@section scripts
+    {
+    <script src="~/js/AddOrEditEmpScript.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+}
+
+<body>
+   <div class="row d-flex justify-content-center">
+      <div class="col-lg-8">
+
+         <h2 class="fw-bold mb-5 col-lg-8">@ViewData["title"]</h2>
+         <form method="post" asp-action="AddOrEditEmployee" enctype="multipart/form-data" autocomplete="off">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+               <label class="form-label" for="emp_name">Name<span class="required">*</span></label>
+               <input asp-for="Name" type="text" id="emp_name" class="form-control" maxlength="100" placeholder="Enter Name" autocomplete="off"/>
+               <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Manager input -->
+            <div class="form-outline mb-4">
+               <label class="col-form-label" for="manager_name">Manager Name</label>
+               <input asp-for="ManagerName" type="text" id="manager_name" class="form-control" maxlength="100" placeholder="Enter Manage Name" />
+            </div>
+
+            <!-- Joining Date input -->
+            <div class="form-outline mb-4">
+               <label class="col-form-label" for="my_date_picker">Joining Date<span class="required">*</span></label>
+               <input asp-for="JoiningDate" type="text" id="my_date_picker" class="form-control" placeholder="01-01-2000" autocomplete="off" />
+               <span asp-validation-for="JoiningDate" class="text-danger"></span>
+            </div>
+
+            <!-- Photo input -->
+                @if (Model.PhotoLink != null && Model.PhotoLink != "")
+                {
+                <div class="form-outline mb-4">
+                   <label class="col-form-label" for="img1">Photo</label>
+                   <input type="file" class="form-control" id="img1" asp-for=Photo accept="image/*">
+                   <div class="form-outline mb-4 form-control" id="picked_image1">
+                      <img id="loaded_image1" src="~/Images/@Model.PhotoLink" width="25"
+                       height="25">
+                      <img id="choose_again1" src="~/Images/check-marks.jpg" width="25" height="25">
+                   </div>
+                </div>
+                <input type="hidden" id="photolink1" asp-for="PhotoLink" />
+                }
+                else
+                {
+                <div class="form-outline mb-4">
+                   <label class="col-form-label" for="img">Photo</label>
+                   <input type="file" class="form-control" id="img" asp-for=Photo accept="image/*">
+                   <div class="form-outline mb-4 form-control" id="picked_image">
+                      <img id="loaded_image" width="25"
+                       height="25">
+                      <img id="choose_again" src="~/Images/check-marks.jpg" alt="Tourist Place Logo" width="25" height="25">
+                   </div>
+                </div>
+                <input type="hidden" id="photolink" asp-for="PhotoLink" />
+                }
+
+            <!--Status-->
+            <div class="form-outline mb-4">
+               <label class="col-form-label" for="status">Status</label>
+               <div class="input-group mb-3">
+                  <div class="input-group-text">
+                     <input asp-for="Status" class="form-check-input mt-0" type="checkbox" aria-label="Checkbox for following text input">
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with checkbox" value="Activate" disabled id="status">
+               </div>
+            </div>
+
+            <!--Department-->
+            <div class="form-outline mb-4">
+               <label class="col-form-label" for="inputGroupSelect01">Department<span class="required">*</span></label>
+               <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                  <select asp-for="Deptartment" class="form-select" id="inputGroupSelect01">
+                            @if (Model.Departments.Count != 0)
+                            {
+                                @if (Model.Deptartment == null)
+                                {
+                             <option selected disabled hidden>Select Department</option>
+                                    @if (Model.Departments.Count > 1)
+                                    {
+                                        @for (int i = 0; i < Model.Departments.Count; i++)
+                                        {
+                                     <option value=@Model.Departments[i]>@Model.Departments[i]</option>
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                             <option selected>@Model.Deptartment</option>
+                                    @if (Model.Departments.Count > 1)
+                                    {
+                                        @for (int i = 0; i < Model.Departments.Count; i++)
+                                        {
+                                            if (Model.Departments[i] == Model.Deptartment)
+                                            {
+                                                continue;
+                                            }
+                                            else
+                                            {
+                                         <option value=@Model.Departments[i]>@Model.Departments[i]</option>
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                     }
+                  </select>
+               </div>
+               <span asp-validation-for="Deptartment" class="text-danger"> </span>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-customized btn-block mb-4">Submit</button>
+         </form>
+      </div>
+   </div>
+</body>

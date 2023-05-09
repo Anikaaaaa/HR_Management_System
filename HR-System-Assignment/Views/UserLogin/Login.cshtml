@@ -1,0 +1,70 @@
+﻿@model HR_System_Assignment.Models.UserLoginViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+   <!-- Section: Design Block -->
+   <section class="text-center">
+
+      <!-- Background image -->
+      <div class="p-5 bg-image" style="
+        background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+        height: 180px;
+        "></div>
+
+      <!-- Background image -->
+      <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+        margin-top: -100px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+         <div class="card-body py-5 px-md-5">
+            <div class="row d-flex justify-content-center">
+               <div class="col-lg-8">
+                  <h2 class="fw-bold mb-5">Login Here</h2>
+                  <form asp-controller="UserLogin" asp-action="Login" method="post">
+                     
+                     <!-- Email input -->
+                     <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example3">Email address</label>
+                        <input asp-for="Email" type="email" id="form3Example3" placeholder="example@gmail.com" class="form-control" text-color="black" autocomplete="off"/>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                     </div>
+
+                     <!-- Password input -->
+                     <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example4">Password</label>
+                        <input asp-for="Password" type="password" id="form3Example4" placeholder="*******" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                     </div>
+                     
+                     <!-- Submit button -->
+                     <button type="submit" class="btn btn-primary btn-block mb-4">
+                        Login
+                     </button>
+                     @if(@ViewData["ValidateMessage"] == "empty"){
+                        <span class="text-danger">*Email and Password doesn't match.Please try again.*</span>
+                     }
+                  </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+    @section Scripts {
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+   }
+</body>
+</html>
